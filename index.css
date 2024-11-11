@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#header {
+    width: 100vw;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-logo {
+    width: 50px;
+    height: 42px;
+}
+
+#footer {
+    background-color: black;
+    width: 100vw;
+    height: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 81px;
+    height: 68px;
+}
+
+#footer-section {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    width: 167px;
+    height: 44px;
+}
+
+#intro-section {
+    width: 1200px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#intro-title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 29.26px;
+}
+
+#intro-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#intro-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+#intro-image img {
+    border-radius: 12px;
+}
+
+.tour-destinations {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.destination {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.destination-circle {
+    background-color: black;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    color: #16a94a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination-line {
+    width: 56px;
+    height: 5100px;
+    border-left: 1px dashed black;
+    margin-left: 28px;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#LP {
+    border: 1px solid green;
+    width: 285px;
+    height: 370px;
+    border-radius: 24px;
+    padding: 40px;
+    background-color: #fff;
+}
+#SP {
+    border: 1px solid rgb(255, 192, 238);
+    width: 285px;
+    height: 370px;
+    border-radius: 24px;
+    padding: 40px;
+    background-color: #fff;
+}
